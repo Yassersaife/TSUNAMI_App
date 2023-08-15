@@ -1,16 +1,14 @@
-import { SafeAreaView, ScrollView, TouchableOpaascity,StyleSheet, Text, TouchableOpacity, View, StatusBar, ImageBackground, Image, Dimensions, FlatList, } from 'react-native'
-import React, { useState,useContext,useEffect } from 'react'
+import { SafeAreaView, ScrollView, TouchableOpaascity,StyleSheet, Text, 
+  TouchableOpacity, View, StatusBar, ImageBackground, Image, Dimensions, FlatList, } from 'react-native';
+import React, { useState,useContext,useEffect } from 'react';
 import { Colors, Fonts, Sizes,Size } from '../../constants/styles';
 import { MaterialCommunityIcons, MaterialIcons ,Foundation} from '@expo/vector-icons';
-import { Stack, ActivityIndicator } from "@react-native-material/core";
+import {  ActivityIndicator } from "@react-native-material/core";
 import Icon from 'react-native-vector-icons/MaterialCommunityIcons';
 import brandsdata from '../../data/brands.js';
-import { Overlay, colors } from 'react-native-elements';
-import { useTranslation } from 'react-i18next';
-import { LinearGradient } from 'expo-linear-gradient';
-import { Ionicons } from "@expo/vector-icons";
+import { Overlay } from 'react-native-elements';
+
 import { BlurView } from "expo-blur";
-import { color } from 'react-native-reanimated';
 
 const { width,height } = Dimensions.get('window');
 

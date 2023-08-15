@@ -5,7 +5,6 @@ import Icon from 'react-native-vector-icons/MaterialIcons';
 import { Colors, Fonts, Sizes ,Size} from '../../constants/styles';
 import {PrimaryButton} from '../../components/Button';
 import { Ionicons,MaterialIcons,Foundation } from "@expo/vector-icons";
-import { fonts } from 'react-native-elements/dist/config';
 
 
 const products =[

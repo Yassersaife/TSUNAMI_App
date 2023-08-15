@@ -1,8 +1,8 @@
 {
   "expo": {
-    "name": "Tsunami-Phone",
-    "slug": "Tsunami Phone",
-    "version": "1.0.0",
+    "name": "Tsunami Phone",
+    "slug": "tusnami",
+    "version": "1.2.1",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
     "userInterfaceStyle": "light",
@@ -15,16 +15,23 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.yasser.saife.tusnami"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.yasser.saife.tusnami"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "66910e47-540d-4d1e-8ace-c9d231031ab5"
+      }
     }
   }
 }

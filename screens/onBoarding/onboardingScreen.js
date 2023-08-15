@@ -1,6 +1,7 @@
 
 import React, { useRef, useState, useEffect } from 'react'
-import { View, Text, StatusBar,StyleSheet,Dimensions , SafeAreaView, TouchableOpacity, FlatList, ImageBackground } from 'react-native'
+import { View, Text, StatusBar,StyleSheet,Dimensions , SafeAreaView, 
+    TouchableOpacity, FlatList, ImageBackground } from 'react-native'
 import { Colors, Fonts, Size } from '../../constants/styles';
 import AntDesignIcons from 'react-native-vector-icons/AntDesign';
 import data from '../../data/onboarding'
